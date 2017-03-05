@@ -3,8 +3,6 @@
     <counter></counter>
     <p>
       To get started, edit files in <code>./client</code> and save.
-      yea
-      {{ test }}
     </p>
   </div>
 </template>
@@ -13,8 +11,12 @@
 import Counter from 'components/Counter'
 
 export default {
+	created() {
+		console.log('created Home')
+  },
   components: {
-    Counter
+    Counter,
+    Navigation,
   },
   props: {
   	test: {type: String, default: 'nothing!'}

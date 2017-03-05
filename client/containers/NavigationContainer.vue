@@ -1,0 +1,17 @@
+<style scoped>
+  .container {
+    display: flex;
+  }
+</style>
+
+<template>
+  <div class="container">
+
+  </div>
+</template>
+
+<script>
+  export default {
+
+  }
+</script>
