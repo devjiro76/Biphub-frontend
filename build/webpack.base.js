@@ -22,8 +22,8 @@ module.exports = {
     extensions: ['.js', '.vue', '.css', '.json'],
     alias: {
       root: path.join(__dirname, '../client'),
-      components: path.join(__dirname, '../client/components'),
-      containers: path.join(__dirname, '../client/containers'),
+      components: path.join(__dirname, '../client/js/components'),
+      containers: path.join(__dirname, '../client/js/containers'),
     },
     modules: [
       _.cwd('node_modules'),
