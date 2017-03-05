@@ -1,6 +1,26 @@
+<style scoped lang="scss">
+  @import '../../../styles/colour.scss'; // TODO: shorten this syntax
+  @import '../../../styles/size.scss';
+
+  .component {
+    display: flex;
+    justify-content: center;
+    background-color: $bg--green;
+    color: $font--white;
+    width: 100%;
+    min-height: 50px;
+  }
+  .logo-text {
+    align-self: center;
+    font-size: $fsize--md;
+  }
+</style>
+
 <template>
   <div class="component">
-    {{ text }}
+    <span class="logo-text">
+      {{ text }}
+    </span>
   </div>
 </template>
 
@@ -11,13 +31,3 @@
     }
   }
 </script>
-
-<style scoped lang="scss">
-  @import "../../../styles/colour.scss"; // TODO: shorten this syntax
-
-  .component {
-    display: flex;
-    background-color: $bg--green;
-    color: $font--white;
-  }
-</style>

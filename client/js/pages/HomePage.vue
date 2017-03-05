@@ -1,10 +1,17 @@
+<style scoped lang="scss">
+  .navigation {
+    width: 160px;
+  }
+</style>
 <template>
   <div class="page">
-    <counter></counter>
-    <p>
-      To get started, edit files in <code>./client</code> and save.
-      <NavigationContainer></NavigationContainer>
-    </p>
+    <div is="NavigationContainer"
+         class="navigation" >
+
+    </div>
+    <div>
+
+    </div>
   </div>
 </template>
 
