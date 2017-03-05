@@ -14,9 +14,10 @@
 
 <style scoped lang="scss">
   @import "../../../styles/colour.scss"; // TODO: shorten this syntax
+
   .component {
     display: flex;
-    background-color: $green;
-    color: $white;
+    background-color: $bg--green;
+    color: $font--white;
   }
 </style>
