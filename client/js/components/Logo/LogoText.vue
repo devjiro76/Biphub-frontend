@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="component">
     {{ text }}
   </div>
 </template>
@@ -12,8 +12,11 @@
   }
 </script>
 
-<style>
+<style scoped lang="scss">
+  @import "../../../styles/colour.scss"; // TODO: shorten this syntax
   .component {
-    background-color: #22baa0;
+    display: flex;
+    background-color: $green;
+    color: $white;
   }
 </style>

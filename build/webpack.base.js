@@ -24,6 +24,7 @@ module.exports = {
       root: path.join(__dirname, '../client'),
       components: path.join(__dirname, '../client/js/components'),
       containers: path.join(__dirname, '../client/js/containers'),
+      styles: path.join(__dirname, '../client/styles')
     },
     modules: [
       _.cwd('node_modules'),

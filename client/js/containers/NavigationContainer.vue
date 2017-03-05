@@ -6,12 +6,16 @@
 
 <template>
   <div class="container">
-
+    <LogoText></LogoText>
   </div>
 </template>
 
 <script>
-  export default {
+  import LogoText from 'components/Logo/LogoText'
 
+  export default {
+    components: {
+    	LogoText
+    }
   }
 </script>
