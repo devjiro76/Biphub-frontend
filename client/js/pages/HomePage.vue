@@ -20,15 +20,15 @@ import Counter from 'components/Counter'
 import NavigationContainer from 'containers/NavigationContainer'
 
 export default {
-	created() {
-		console.log('created Home')
+  created () {
+    console.log('created Home')
   },
   components: {
     Counter,
     NavigationContainer,
   },
   props: {
-  	test: {type: String, default: 'nothing!'}
+    test: { type: String, default: 'nothing!' }
   }
 }
 </script>
