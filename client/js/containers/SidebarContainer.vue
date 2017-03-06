@@ -17,13 +17,13 @@
 <script>
   import LogoText from 'components/LogoText'
   import UserProfile from 'components/UserProfile'
-  import Menu from 'components/Menu'
+  import MenuItem from 'components/MenuItem'
 
   export default {
     components: {
       LogoText,
       UserProfile,
-      Menu,
+      MenuItem,
     }
   }
 </script>

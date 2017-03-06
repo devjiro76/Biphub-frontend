@@ -1,8 +1,4 @@
-<style>
-	.label {
-
-	}
-</style>
+<style scoped lang="scss" src="./MenuItem.scss"></style>
 
 <template>
   <div>
