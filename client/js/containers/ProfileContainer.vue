@@ -1,21 +1,19 @@
 <style scoped lang="scss">
   .container {
-    display: flex;
+  	display: flex;
   }
 </style>
 
 <template>
   <div class="container">
-    <LogoText></LogoText>
+
   </div>
 </template>
 
 <script>
-  import LogoText from 'components/Logo/LogoText'
-
   export default {
-    components: {
-    	LogoText
+    created () {
+      console.log('created profile container')
     }
   }
 </script>

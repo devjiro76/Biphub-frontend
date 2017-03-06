@@ -1,13 +1,12 @@
 <style scoped lang="scss">
-  .navigation {
+  .sidebar {
     width: 160px;
   }
 </style>
 <template>
   <div class="page">
-    <div is="NavigationContainer"
-         class="navigation" >
-
+    <div is="SidebarContainer"
+         class="sidebar" >
     </div>
     <div>
 
@@ -17,7 +16,7 @@
 
 <script>
 import Counter from 'components/Counter'
-import NavigationContainer from 'containers/NavigationContainer'
+import SidebarContainer from 'containers/SidebarContainer'
 
 export default {
   created () {
@@ -25,7 +24,7 @@ export default {
   },
   components: {
     Counter,
-    NavigationContainer,
+    SidebarContainer,
   },
   props: {
     test: { type: String, default: 'nothing!' }

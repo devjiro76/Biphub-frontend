@@ -1,6 +1,6 @@
 <style scoped lang="scss">
-  @import '../../../styles/colour.scss'; // TODO: shorten this syntax
-  @import '../../../styles/size.scss';
+  @import '../../styles/colour.scss'; // TODO: shorten this syntax
+  @import '../../styles/size.scss';
 
   .component {
     display: flex;
