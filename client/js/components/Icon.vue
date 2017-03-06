@@ -1,12 +1,17 @@
 <template>
   <span>
-    <i class="fa fa-home" aria-hidden="true"></i>
+    <i v-bind:class="iconClass" aria-hidden="true"></i>
   </span>
 </template>
 <script>
   export default {
     props: {
-      type: { type: String, default: null, }
+      type: { type: String, default: 'home', },
+    },
+    computed: {
+      iconClass () {
+        return `fa fa-${this.type}`
+      }
     }
   }
 </script>
