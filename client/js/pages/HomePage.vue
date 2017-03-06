@@ -9,7 +9,7 @@
          class="sidebar" >
     </div>
     <div>
-
+      test
     </div>
   </div>
 </template>

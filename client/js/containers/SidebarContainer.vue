@@ -1,13 +1,15 @@
 <style scoped lang="scss">
   .container {
-    display: flex;
   }
 </style>
 
 <template>
   <div class="container">
     <LogoText></LogoText>
-
+    <UserProfile photo="/static/profile-menu-image.png"
+                 name="jason"
+                 role="developer"
+    ></UserProfile>
   </div>
 </template>
 
@@ -17,7 +19,7 @@
 
   export default {
     components: {
-    	LogoText,
+      LogoText,
       UserProfile,
     }
   }

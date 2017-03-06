@@ -72,7 +72,7 @@ module.exports = {
       {
         from: _.cwd('./static'),
         // to the roor of dist path
-        to: './'
+        to: './static'
       }
     ])
   ],
