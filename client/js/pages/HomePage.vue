@@ -3,6 +3,7 @@
     width: 160px;
   }
 </style>
+
 <template>
   <div class="page">
     <div is="SidebarContainer"

@@ -1,29 +1,4 @@
-<style scoped lang="scss">
-  @import '../../styles/size.scss';
-  @import '../../styles/padding.scss';
-  // TODO: Possibly refactor this (vertical center) using flex
-  .container {
-    width: 100%;
-    min-height: 60px;  // TODO: Static value is not good. Revise this
-  }
-  .container-pad {
-    padding: $pd--lg;
-  }
-  .photo {
-    border-radius: 50%;
-  }
-  .photo-image {
-    border-radius: 50%;
-  }
-  .name {
-    font-size: $fsize--mss;
-    text-transform: capitalize;
-  }
-  .role {
-    font-size: $fsize--sm;
-    text-transform: capitalize;
-  }
-</style>
+<style scoped lang="scss" src="./UserProfile.scss"></style>
 
 <template>
   <div class="container">
