@@ -1,3 +1,6 @@
-@import 'normalize';
-@import 'size';
-@import 'colour';
+@import "normalize";
+
+// TODO: Refactor this
+* {
+	font-family: 'Open Sans', sans-serif;
+}
